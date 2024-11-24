@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(70, 142, 236);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.hora_dia {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hora_dia h2, .contador h2 {
+    margin-bottom: 10px;
+}
+
+.mensagem_foto {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+#msg {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#foto {
+    text-align: center;
+}
+
+#foto img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+#btn_contar, #btn_tab, #btn_fin, #btn_add{
+    background: linear-gradient(90deg, #e8d9b5, #b8a478);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#btn_fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.contador{
+    margin: 20px 0;
+}
+
+.dados_res, .num_tab{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.ana_dados{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: 20px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+select #flista {
+    width: 150px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+select {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+}

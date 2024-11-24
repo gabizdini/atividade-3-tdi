@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> Atividade 3 - TDI</title>
+</head>
+<body onload="carregar()">
+    <section class="hora_dia">
+        <h2>Hora do Dia</h2>
+        <div class="mensagem_foto">
+            <div id="msg">
+                Aqui vai aparecer a mensagem...
+            </div>
+            <div id="foto">
+                <img id="imagem" src="images/foto-manha.png" alt="Foto da Manhã">
+            </div>
+        </div>
+    </section>
+
+    <section class="contador">
+        <h2>Contador</h2>
+        <div class="dados_res">
+            <div id="dados">
+                <p> Início: <input type="number" name="inicio" id="txt_inicio"></p>
+                <p> Fim: <input type="number" name="fim" id="txt_fim"></p>
+                <p> Passo: <input type="number" name="passo" id="txt_passo"></p>
+                <p> <input id="btn_contar" type="button" value="Contar" onclick="contar()"></p>
+            </div>
+            <div id="res">
+                <p>
+                    Preparando a Contagem...
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tabuada">
+        <h2>Tabuada</h2>
+        <div class="num_tab">
+            <div>
+                <p> Número: <input type="number" name="num" id="txt_num">
+                <input id="btn_tab" type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+            </div>
+            <div class="container">
+                <select name="tabuada" id="seltab" size="10">
+                    <option> Digite um número acima </option>
+                </select>
+            </div>
+        </div>
+    </section>
+    
+    <section class="analisador">
+        <h2>Analisador de Números</h2>
+        <div class="ana_dados">
+            <div>
+                <p> Número (entre 1 e 100): 
+                    <input type="number" name="fnum" id="fnum">
+                    <input id="btn_add" type="button" value="Adicionar" onclick="adicionar()"> <br>
+                    <div class="container">
+                        <select name="flista" id="flista" size="6"></select><br>
+                    </div>
+                    
+                    <input id="btn_fin" type="button" value="Finalizar" onclick="finalizar()">
+                </p>
+            </div>
+            <div id="resultado">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Feito por: Gabrieli Diniz </p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="analisador.js"></script>
+</body>
+</html>
